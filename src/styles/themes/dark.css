@@ -2,8 +2,8 @@
 [data-theme="dark"],
 .dark {
   /* Primary Brand Colors (Flowing Orange) */
-  --accent: #FF8A4C;
-  --accent-dark: #F97316;
+  --accent: #b081e7;
+  --accent-dark: #50bcec;
   --accent-rgb: 255, 138, 76;
 
   /* Neutral Colors */
@@ -51,7 +51,7 @@
   --card-foreground: rgb(243, 244, 246);
   --popover: #282c34;
   --popover-foreground: rgb(243, 244, 246);
-  --primary: #FF8A4C;
+  --primary: #4ca0ff;
   --primary-foreground: #0f1219;
   --secondary: #FFB36B;
   --secondary-foreground: rgb(243, 244, 246);

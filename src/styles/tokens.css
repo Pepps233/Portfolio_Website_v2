@@ -1,7 +1,7 @@
 /* Base design tokens and defaults. These map to Starwind's inline theme variables. */
 :root {
   /* Brand */
-  --accent: #FF8A4C;
+  --accent: #4c64ff;
   --accent-dark: #F97316;
   --accent-rgb: 255, 138, 76;
 
