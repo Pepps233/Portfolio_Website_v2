@@ -3,7 +3,7 @@ export const studies = [
     title: "Computer Science B.S.",
     institution: "Purdue University, 2029",
     description:
-      "Focus on Machine Intelligence with a minor in Biological Sciences.",
+      "Machine Intelligence track with a minor in Biological Sciences.",
     tags: [
       "Algorithms",
       "Data Structures",

@@ -10,9 +10,11 @@ export const projects = [
 	{
 		title: "Barcode-scanning Attendance Tracker",
 		techStack: "OpenCV • Python • Pandas • Openpyxl",
-		description: "A lightweight Python program built using OpenCV, pandas, and openpyxl to decode student ID and record attendance in Excel\n" +
-            "Automated formatting of date, time, and meeting in Excel, generating weekly and seasonal total hours for each member\n" +
-            "Used by a 40-member robotics club to streamline attendance tracking and accurately determine active members.",
+		description: [
+			"A lightweight Python program using OpenCV, pandas, and openpyxl to decode student IDs and record attendance in Excel.",
+			"Automates formatting of date, time, and meeting in Excel; generates weekly and seasonal total hours per member.",
+			"Adopted by a 40-member robotics club to streamline attendance and accurately determine active members."
+		],
 		ctaText: "View Repo →",
 		ctaLink: "https://github.com/Pepps233/2204-Attendance-",
 		icon: PythonIcon
