@@ -31,9 +31,9 @@ export const work = [
     company: "FIRST Robotics Team 2204, 2024-2025 June",
     region: "Hayward, California",
       description: [
-          "- Documented programming concepts (encapsulation, abstraction, polymorphism) and Kotlin fundamentals for new team members, designing robotics and software lesson plans for a 3-month training equivalent to a first-semester university course.",
-          "- Coordinated workflow with ~6 programmers using Git and task management to align with the mechanical subteam, designing vision-based robot localization running at 50Hz with a noise-reducing filter for AprilTag detection.",
-          "- Programmed robot autonomous sequences and path planning with 85% accuracy, contributing to winning the East Bay Regional against 52 teams."
+          "Documented programming concepts (encapsulation, abstraction, polymorphism) and Kotlin fundamentals for new team members, designing robotics and software lesson plans for a 3-month training equivalent to a first-semester university course.",
+          "Coordinated workflow with ~6 programmers using Git and task management to align with the mechanical subteam, designing vision-based robot localization running at 50Hz with a noise-reducing filter for AprilTag detection.",
+          "Programmed robot autonomous sequences and path planning with 85% accuracy, contributing to winning the East Bay Regional against 52 teams."
       ],
     technologies: [
       "Java",
