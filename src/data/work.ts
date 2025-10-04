@@ -11,72 +11,52 @@ export const workIcons = {
 
 export const work = [
   {
-    title: "Senior Software Engineer",
-    company: "Acme Cloud",
-    region: "United States",
-    description:
-      "Led the design and delivery of a multi‑tenant platform, decomposed critical monolith paths into services, improved p95 latency by 40%, defined SLOs and on‑call rotations, and mentored junior engineers.",
+    title: "Software Engineer Intern",
+    company: "Crcle AI, 2025 Sep. - Present",
+    region: "West Lafayette, Indiana",
+    description:["Focusing on improving user context with generative pretrained transformer models, refining transformer architectures, and building desktop backends with Node.js and Electron.",],
     technologies: [
       "TypeScript",
       "Node.js",
       "React",
       "PostgreSQL",
-      "Redis",
-      "AWS",
-      "Docker",
-      "Kubernetes",
-      "Terraform",
-      "GraphQL",
-    ],
-  },
-  {
-    title: "Staff Software Engineer",
-    company: "FinchPay",
-    region: "Global",
-    description:
-      "Architected event‑driven payment services with idempotency and retries, introduced Kafka for async processing, enforced API versioning, and drove observability with structured logging and tracing.",
-    technologies: [
-      "TypeScript",
-      "NestJS",
-      "Kafka",
-      "PostgreSQL",
-      "Redis",
-      "gRPC",
-      "OpenTelemetry",
-      "AWS",
-    ],
-  },
-  {
-    title: "Senior Frontend Engineer",
-    company: "Insight Analytics",
-    region: "Europe",
-    description:
-      "Owned the design system and SSR/ISR strategy, improved Core Web Vitals (LCP/INP) into the green, and shipped accessible UI components with strong tests and story coverage.",
-    technologies: [
-      "React",
-      "Next.js",
-      "Astro",
-      "Tailwind CSS",
-      "Playwright",
-      "Vitest",
-    ],
-  },
-  {
-    title: "Software Engineer",
-    company: "LaunchPad",
-    region: "Brazil",
-    description:
-      "Built MVPs end‑to‑end: designed REST/GraphQL APIs, set up CI/CD with preview environments, introduced feature flags, and migrated data to Postgres.",
-    technologies: [
-      "Node.js",
-      "Express",
-      "GraphQL",
       "Supabase",
-      "PostgreSQL",
-      "GitHub Actions",
-      "Docker",
+      "Python",
+      "Electron",
+      "Git",
     ],
   },
+  {
+    title: "Team Captain & Software Lead",
+    company: "FIRST Robotics Team 2204, 2024-2025 June",
+    region: "Hayward, California",
+    description:[
+      `- Documented programming concepts (encapsulation, abstraction, polymorphism) and Kotlin fundamentals for new team members, designing robotics and software lesson plans for a 3-month training equivalent to a first-semester university course.
+       - Coordinated workflow with ~6 programmers using Git and task management to align with the mechanical subteam, designing vision-based robot localization running at 50Hz with a noise-reducing filter for AprilTag detection.
+       - Programmed robot autonomous sequences and path planning with 85% accuracy, contributing to winning the East Bay Regional against 52 teams.`],
+    technologies: [
+      "Java",
+      "Kotlin",
+      "Python",
+      "WPILib",
+      "Git",
+    ],
+  },
+  {
+    title: "Math/Mandarin/Programming Teaching Assistant",
+    company: "The Salvation Army, 2023 Jan. - Mar.",
+    region: "Oakland, California",
+    description: [
+      `
+      - Assisted teacher by explaining Mandarin, Math, and Python concepts to ~8 students of various ages.
+      - Organized and shared lesson plans with 6 teachers and teaching assistants.
+      - Liaised between the organization director and ~50 student families regarding school events and classwork.
+      `
+    ],
+    technologies: [
+        "Excel"
+    ]
+  }
 ];
 
 export type WorkItem = (typeof work)[number];

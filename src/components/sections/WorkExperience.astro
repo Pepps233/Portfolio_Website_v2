@@ -6,7 +6,7 @@ interface ExperienceItem {
   title: string;
   company: string;
   region: string;
-  description: string;
+  description: string[];
   technologies?: string[];
 }
 
@@ -27,5 +27,3 @@ const { items, title } = Astro.props as Props;
     <Timeline items={items} icons={workIcons} centered={false}/>
   </div>
 </section>
-
-

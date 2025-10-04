@@ -12,7 +12,7 @@ import PostNav from '../components/ui/nav/PostNav.astro';
 type BlogData = CollectionEntry<'blog'>['data'];
 type Props = BlogData & { showHeader?: boolean; prevPost?: { id: string; title: string } | null; nextPost?: { id: string; title: string } | null; readingTimeMin?: number };
 
-const { title, description, pubDate, updatedDate, heroImage, showHeader = true, prevPost = null, nextPost = null, readingTimeMin = 0 } = Astro.props as Props;
+const { title, description, pubDate, updatedDate, heroImage, showHeader = true, prevPost = null, nextPost = null, readingTimeMin = 1 } = Astro.props as Props;
 ---
 
 <html lang="en" data-theme="dark" class="dark">

@@ -1,27 +1,27 @@
 export const studies = [
   {
-    title: "B.S. in Computer Science",
-    institution: "State University",
+    title: "Computer Science B.S.",
+    institution: "Purdue University, 2029",
     description:
-      "Core CS foundations: data structures, algorithms, operating systems, networking, and databases; team capstone in web systems.",
+      "Focus on Machine Intelligence with a minor in Biological Sciences.",
     tags: [
       "Algorithms",
       "Data Structures",
-      "Operating Systems",
       "Databases",
-      "Networking",
+      "Java OOP",
+      "Programming in C"
     ],
   },
   {
-    title: "M.S. in Software Engineering",
-    institution: "Tech Institute",
+    title: "High School",
+    institution: "California Crosspoint High School, 2025",
     description:
-      "Focus on distributed systems, testing strategies, and cloud architecture; thesis on resilience patterns in microservices.",
+      "Relevant Coursework: Calculus I, Structured Programming in C++",
     tags: [
-      "Distributed Systems",
-      "Cloud Architecture",
-      "Testing",
-      "Microservices",
+      "C++",
+      "Programming",
+      "Problem Solving",
+      "Written Communication"
     ],
   },
 ];
