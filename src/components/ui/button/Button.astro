@@ -6,6 +6,8 @@ interface Props {
   type?: 'button' | 'submit' | 'reset';
   disabled?: boolean;
   class?: string;
+  target?: string;
+  rel?: string;
 }
 
 const {
@@ -15,6 +17,8 @@ const {
   type = 'button',
   disabled = false,
   class: className,
+  target,
+  rel,
   ...rest
 } = Astro.props as Props;
 
@@ -41,9 +45,9 @@ const classes = [base, sizes[size], variants[variant], className].filter(Boolean
   href={href}
   type={!href ? type : undefined}
   aria-disabled={disabled ? 'true' : undefined}
+  target={href ? target : undefined}
+  rel={href ? rel : undefined}
   {...rest}
 >
   <slot />
 </Tag>
-
-
