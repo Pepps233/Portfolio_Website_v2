@@ -22,7 +22,10 @@ export const projects = [
 	{
 		title: "Real-time American Sign Language (ASL) Alphabet Translator",
 		techStack: "OpenCV • TensorFlow • MediaPipe • pyttsx3",
-		description: "todo",
+        description: [
+            "Built a camera-based ASL translator using TensorFlow, MediaPipe, and 5,500+ self-created training samples.",
+            "Integrated text-to-speech (pyttsx3) to vocalize translated signs, enhancing accessibility for communication.",
+        ],
 		ctaText: "View Repo →",
 		ctaLink: "https://github.com/Pepps233/Sign-Language-Translator",
 		icon: PythonIcon
@@ -30,7 +33,11 @@ export const projects = [
 	{
 		title: "Employee Management API (Backend)",
 		techStack: "Spring Boot • Java • Spring Data JPA • Docker • PostgreSQL",
-		description: "todo",
+        description: [
+            "Developed a RESTful backend service using Java, Spring Boot, and PostgreSQL to manage employee data with CRUD functions.",
+            "Implemented a layered architecture (Controller → Service → Repository) and DTO mapping to ensure clean, maintainable code.",
+            "Containerized the database with Docker, enabling consistent deployment and simplified setup."
+        ],
 		ctaText: "View Repo →",
 		ctaLink: "https://github.com/Pepps233/Employee-Management-System",
 		icon: N8nIcon
