@@ -18,8 +18,8 @@ function sanitizeToWhite(svg: string, size = 18) {
 
 const contactIcon = sanitizeToWhite(contactIconRaw);
 const feedUrl = new URL('rss.xml', Astro.site).toString();
-const feedlyUrl = `https://crcle.ai/`;
-const inoreaderUrl = `https://www.purdue.edu/`;
+const feedlyUrl = `https://www.linkedin.com/in/yujay1/`;
+const inoreaderUrl = `https://github.com/Pepps233`;
 ---
 
 <footer id="contact" class="py-12 px-4 text-center">
@@ -33,8 +33,8 @@ const inoreaderUrl = `https://www.purdue.edu/`;
   </div>
   <!-- <div class="mt-6 text-sm text-[color:var(--color-text-muted)]">Credits: <a href="https://guihubie.com" class="hover:text-[color:var(--accent)]">guihubie</a>.</div> -->
   <div class="mt-6 flex items-center justify-center gap-4 text-sm">
-    <a class="sw-btn-sm" href={feedlyUrl} target="_blank" rel="noopener noreferrer" aria-label="Subscribe in Feedly">Crcle AI</a>
-    <a class="sw-btn-sm" href={inoreaderUrl} target="_blank" rel="noopener noreferrer" aria-label="Subscribe in Inoreader">Purdue edu</a>
+    <a class="sw-btn-sm" href={feedlyUrl} target="_blank" rel="noopener noreferrer" aria-label="Connect on LinkedIn">LinkedIn</a>
+    <a class="sw-btn-sm" href={inoreaderUrl} target="_blank" rel="noopener noreferrer" aria-label="Connect on Github">Github</a>
     <!-- <button class="sw-btn-sm" type="button" data-copy={feedUrl} aria-label="Copy RSS link">Copy RSS link</button> -->
     <a class="sw-btn-sm" href="/blog/" aria-label="Browse all posts">All posts</a>
   </div>
