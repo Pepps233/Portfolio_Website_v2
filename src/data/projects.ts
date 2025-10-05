@@ -9,6 +9,7 @@ import TailwindIcon from '../assets/logos/Tailwind-logo.svg?raw';
 export const projects = [
 	{
 		title: "Barcode scanning Attendance Tracker",
+		date: "2024 August",
 		techStack: "OpenCV • Python • Pandas • Openpyxl",
 		description: [
 			"A lightweight Python program using OpenCV, pandas, and openpyxl to decode student IDs and record attendance in Excel.",
@@ -21,6 +22,7 @@ export const projects = [
 	},
 	{
 		title: "Real-time American Sign Language (ASL) Alphabet Translator",
+		date: "2024 December",
 		techStack: "OpenCV • TensorFlow • MediaPipe • pyttsx3",
         description: [
             "Built a camera-based ASL translator using TensorFlow, MediaPipe, and 5,500+ self-created training samples.",
@@ -31,7 +33,8 @@ export const projects = [
 		icon: PythonIcon
 	},
 	{
-		title: "Employee Management API (Backend)",
+		title: "Employee-Management API (Backend)",
+		date: "2025 August",
 		techStack: "Spring Boot • Java • Spring Data JPA • Docker • PostgreSQL",
         description: [
             "Developed a RESTful backend service using Java, Spring Boot, and PostgreSQL to manage employee data with CRUD functions.",

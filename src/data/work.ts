@@ -12,7 +12,8 @@ export const workIcons = {
 export const work = [
   {
     title: "Software Engineer Intern",
-    company: "Crcle AI, 2025 Sep. - Present",
+    company: "Crcle AI",
+    date: "2025 Sep. - Present",
     region: "West Lafayette, Indiana",
     description:["Focusing on improving user context with generative pretrained transformer models, refining transformer architectures, and building desktop backends with Node.js and Electron.",],
     technologies: [
@@ -28,7 +29,8 @@ export const work = [
   },
   {
     title: "Team Captain & Software Lead",
-    company: "FIRST Robotics Team 2204, 2024-2025 June",
+    company: "FIRST Robotics Team 2204",
+    date: "2024-2025 June",
     region: "Hayward, California",
       description: [
           "Documented programming concepts (encapsulation, abstraction, polymorphism) and Kotlin fundamentals for new team members, designing robotics and software lesson plans for a 3-month training equivalent to a first-semester university course.",
@@ -45,7 +47,8 @@ export const work = [
   },
   {
     title: "Math / Mandarin / Programming Teaching Assistant",
-    company: "The Salvation Army, 2023 Jan. - Mar.",
+    company: "The Salvation Army",
+    date: "2023 Jan. - Mar.",
     region: "Oakland, California",
     description: [
       "Assisted teacher by explaining Mandarin, Math, and Python concepts to ~8 students of various ages.",

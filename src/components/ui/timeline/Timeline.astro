@@ -5,6 +5,7 @@ interface Item {
   region: string;
   description: string[];
   technologies?: string[];
+  date?: string;
 }
 
 interface Props { items: Item[], icons?: { job: string; company: string; location: string }, centered?: boolean }
@@ -16,30 +17,12 @@ import companyIconRaw from '../../../assets/icons/company-icon.svg?raw';
 // @ts-ignore
 import locationIconRaw from '../../../assets/icons/location-icon.svg?raw';
 
-function normalizeIcon(raw: string): string {
-  let s = raw
-    .replace(/<\?xml[\s\S]*?\?>/g, '')
-    .replace(/<!--([\s\S]*?)-->/g, '')
-    .replace(/width=\"[^\"]+\"/g, 'width="16"')
-    .replace(/height=\"[^\"]+\"/g, 'height="16"')
-    .replace(/stroke=\"#000000\"/g, 'stroke="currentColor"')
-    .replace(/fill=\"#000000\"/g, 'fill="none"')
-    .replace(/fill=\"#ffffff\"/gi, 'fill="none"');
-  // Ensure root svg has fill="none" and stroke="currentColor"
-  s = s.replace(/<svg([^>]*)>/, (m, attrs) => {
-    let a = attrs;
-    if (!/fill=/.test(a)) a += ' fill="none"';
-    if (!/stroke=/.test(a)) a += ' stroke="currentColor"';
-    return `<svg${a}>`;
-  });
-  return s;
-}
-
 const props = Astro.props as Props;
 const jobIcon = (props.icons?.job ?? normalizeIcon(jobIconRaw));
 const companyIcon = (props.icons?.company ?? normalizeIcon(companyIconRaw));
 const locationIcon = (props.icons?.location ?? normalizeIcon(locationIconRaw));
 const { items, centered = true } = props;
+
 ---
 
 {centered ? (
@@ -72,6 +55,9 @@ const { items, centered = true } = props;
                     <span class="inline-flex" aria-hidden="true" set:html={companyIcon} />
                     {item.company}
                   </p>
+                  {item.date && (
+                    <p class="text-sm text-[color:var(--color-text-muted)] m-0">{item.date}</p>
+                  )}
                   <p class="text-sm text-[color:var(--color-text-muted)] m-0 flex items-center gap-2">
                     <span class="inline-flex" aria-hidden="true" set:html={locationIcon} />
                     {item.region}
@@ -116,6 +102,9 @@ const { items, centered = true } = props;
                 <span class="inline-flex" aria-hidden="true" set:html={companyIcon} />
                 {item.company}
               </p>
+              {item.date && (
+                <p class="text-sm text-[color:var(--color-text-muted)] m-0">{item.date}</p>
+              )}
               <p class="text-sm text-[color:var(--color-text-muted)] m-0 flex items-center gap-2">
                 <span class="inline-flex" aria-hidden="true" set:html={locationIcon} />
                 {item.region}

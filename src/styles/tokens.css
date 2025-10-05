@@ -50,3 +50,7 @@
   --outline: var(--accent);
   --radius: 0.75rem;
 }
+
+:root {
+  --skill-icon-bg: rgba(106, 113, 114, 0.16) /* faint blue @ 8% opacity */
+}
