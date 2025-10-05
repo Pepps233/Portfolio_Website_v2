@@ -44,7 +44,7 @@ export const work = [
     ],
   },
   {
-    title: "Math/Mandarin/Programming Teaching Assistant",
+    title: "Math / Mandarin / Programming Teaching Assistant",
     company: "The Salvation Army, 2023 Jan. - Mar.",
     region: "Oakland, California",
     description: [

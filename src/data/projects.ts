@@ -8,7 +8,7 @@ import TailwindIcon from '../assets/logos/Tailwind-logo.svg?raw';
 
 export const projects = [
 	{
-		title: "Barcode-scanning Attendance Tracker",
+		title: "Barcode scanning Attendance Tracker",
 		techStack: "OpenCV • Python • Pandas • Openpyxl",
 		description: [
 			"A lightweight Python program using OpenCV, pandas, and openpyxl to decode student IDs and record attendance in Excel.",
