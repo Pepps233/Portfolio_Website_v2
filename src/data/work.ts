@@ -11,6 +11,19 @@ export const workIcons = {
 
 export const work = [
   {
+    title: "Software Developer",
+    company: "Hack the Future",
+    date: "2025 Oct. - Present",
+    region: "Purdue University",
+    description:[
+        "Hack the Future is a student organization at Purdue University aimed towards creating software for nonprofits around the world. We develop several projects throughout the school year with various different nonprofits with the hopes of bettering the community."
+    ],
+    technologies: [
+        "Git",
+        "..."
+    ]
+  },
+  {
     title: "Software Engineer Intern",
     company: "Crcle AI",
     date: "2025 Sep. - Present",
