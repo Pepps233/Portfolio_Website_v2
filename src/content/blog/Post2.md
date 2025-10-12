@@ -2,7 +2,7 @@
 title: 'My Journey with Rambots FRC 2204'
 description: 'The most memorable moments with Rambots weren’t awards—they were the laughs, brainstorms, and late nights together.'
 pubDate: 'Oct 4 2025'
-heroImage: '../../assets/images/blog2-hero.webp'
+heroImage: '../../assets/images/blog2-hero.jpg'
 tags: ['Robotics', 'FRC', 'Competition', 'Personal']
 ---
 
