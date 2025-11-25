@@ -11,24 +11,24 @@ export const workIcons = {
 
 export const work = [
   {
-    title: "Software Developer",
-    company: "Hack the Future",
+    title: "Founder & CEO",
+    company: "LuntraHub by Luntraa, Inc.",
     date: "2025 Oct. - Present",
-    region: "Purdue University",
+    region: "",
     description:[
-        "Hack the Future is a student organization at Purdue University aimed towards creating software for nonprofits around the world. We develop several projects throughout the school year with various different nonprofits with the hopes of bettering the community."
+        "On-demand tutor searching and campus connection platform for students."
     ],
     technologies: [
-        "Git",
-        "..."
     ]
   },
   {
     title: "Software Engineer Intern",
     company: "Crcle AI",
-    date: "2025 Sep. - Present",
+    date: "2025 Sep. - 2025 Nov.",
     region: "West Lafayette, Indiana",
-    description:["Focusing on improving user context with generative pretrained transformer models, refining transformer architectures, and building desktop backends with Node.js and Electron.",],
+    description:[
+      "Refined large language model (Mistral 7b) with NVIDIA's personas dataset and Axolotl for personaized user context",
+    ],
     technologies: [
       "TypeScript",
       "Node.js",
